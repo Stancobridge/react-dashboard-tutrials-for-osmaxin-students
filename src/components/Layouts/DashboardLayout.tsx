@@ -7,7 +7,7 @@ export const DashboardLayout = ({ children }: { children: ReactNode }) => {
       <div className="w-[18%] bg-[#151718]">Sidebar</div>
       <section className="flex-1">
         <Header />
-        <section>{children}</section>
+        <section className="bg-[#f9f9f9] px-16 py-10 ">{children}</section>
       </section>
     </main>
   );
