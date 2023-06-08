@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Header } from "./Header";
-import { SideBar } from "./SideBar/SideBar";
+import { SideBar } from "./Profile/SideBar";
 
 export const DashboardLayout = ({ children }: { children: ReactNode }) => {
   return (

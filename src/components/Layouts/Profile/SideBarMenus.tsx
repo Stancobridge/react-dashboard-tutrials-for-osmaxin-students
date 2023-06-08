@@ -8,7 +8,6 @@ export const SideBarMenus = ({ className, icon, page , ...props }: MenuType) =>{
             {icon}
             <h2>{ page}</h2>
         </div>
-            
     )
 }
 

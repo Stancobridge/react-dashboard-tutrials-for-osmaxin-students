@@ -5,8 +5,6 @@ import { TbBrandGoogleAnalytics } from 'react-icons/tb';
 import { LuPiggyBank } from 'react-icons/lu'
 import { BsShieldCheck, BsFillGearFill } from 'react-icons/bs';
 import { BiHelpCircle } from 'react-icons/bi';
-import { Profile } from "../Header/Profile"
-import { FaChevronDown } from "react-icons/fa";
 
 
 export const Menus = () => {
@@ -18,7 +16,7 @@ export const Menus = () => {
                         page="InvestBank"
                     />
                 </div>
-                <div className="m-6  leading-[3em] border-b-[2px] border-b-[#242526] text-gray-500">
+                <div className="mx-6 py-4  leading-[2.6em] border-b-[2px] border-b-[#242526] text-gray-500">
                     <SideBarMenus
                         icon={<MdOutlineDashboard />}
                         page="Dashboards"
@@ -45,7 +43,7 @@ export const Menus = () => {
                         page="Securities"
                     />
                 </div>
-                <div className="px-6 leading-[3em] text-gray-500">
+                <div className="px-6 py-4 leading-[2.6em] text-gray-500">
                     <SideBarMenus
                         icon={<BiHelpCircle />}
                         page="Help"
@@ -55,14 +53,6 @@ export const Menus = () => {
                         page="Settings"
                     />
                 </div>
-            </section>
-            <section className="h-auto">
-                <Profile
-                    name="Ann Karin"
-                    icon={<FaChevronDown  className="ml-4"/>}
-                    email="ann.karin@gmail.com"
-                    className="border-t-[2px] border-t-[#242526] p-6 space-x-3"
-                />
             </section>
         </div>
     )
