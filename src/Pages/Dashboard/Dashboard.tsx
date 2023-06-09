@@ -3,7 +3,7 @@ import {
   FinancialOverview,
   HelloWithAddPayment,
 } from "../../components";
-import { MovieList } from "./Movies";
+import { MovieCard } from "./Movies";
 
 export const Dashboard = () => {
   return (
@@ -33,7 +33,7 @@ export const Dashboard = () => {
           />
         </div>
         <div className="w-[40%]">
-          <MovieList />
+          <MovieCard />
         </div>
       </section>
     </DashboardLayout>
