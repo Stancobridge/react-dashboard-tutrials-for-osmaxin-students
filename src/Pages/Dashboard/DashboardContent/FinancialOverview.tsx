@@ -1,5 +1,5 @@
 import { ImArrowDownLeft2, ImArrowUpRight2 } from "react-icons/im";
-import { Card } from "../../Card/Card";
+import { Card } from "../../../components/Card/Card";
 
 type PropType = {
   title: string;
@@ -17,13 +17,15 @@ export const FinancialOverview = ({
   isProfit,
 }: PropType) => {
   return (
-    <Card className="w-[20%] mt-4">
+    <Card className="flex-1">
       <div>
         <h2 className="text-gray-500 font-bold text-sm">{title}</h2>
         <h3 className="font-bold text-xl">{amount}</h3>
         <div className="flex">
           <span className="text-sm text-gray-500 ">from last week</span>
-          <div className={`flex text-${isProfit ? "green" : "red"}-600`}>
+          <div
+            className={`flex ${isProfit ? "text-green-600" : "text-red-600"}`}
+          >
             <div className="text-xs ml-2 mr-1 mt-1">
               {isProfit ? <ImArrowUpRight2 /> : <ImArrowDownLeft2 />}
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEllipsisH } from "react-icons/fa";
+import { AddPaymentDropDown } from "./AddPaymentDropDown";
 
 export const HelloWithAddPayment = () => {
   return (
@@ -16,7 +16,7 @@ export const HelloWithAddPayment = () => {
           Add Payment
         </button>
         <div>
-          <FaEllipsisH />
+          <AddPaymentDropDown />
         </div>
       </div>
     </section>
