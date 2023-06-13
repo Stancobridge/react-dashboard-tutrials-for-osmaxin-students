@@ -1,12 +1,11 @@
-import { ReactNode } from "react";
 import { Header } from "./Header";
 import { SideBar } from "../Profile/SideBar";
 
 
-export const DashboardLayout = ({ children }: { children: ReactNode }) => {
+export const DashboardLayout = ({ children}) => {
   return (
     <main className="flex">
-      <div className="w-[18%] bg-[#151718]">
+      <div className="w-[18%] h-[100vh] bg-[#151718]">
         <SideBar/>
       </div>
       <section className="flex-1">

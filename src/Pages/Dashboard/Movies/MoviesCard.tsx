@@ -33,7 +33,7 @@ const getMovies = async () => {
 };
 
 export const MovieCard = () => {
-  const { data, isInitialLoading, isLoading, refetch } = useQuery(
+  const { data, isInitialLoading, isLoading, refetch} = useQuery(
     ["pokemons"],
     getMovies
   );

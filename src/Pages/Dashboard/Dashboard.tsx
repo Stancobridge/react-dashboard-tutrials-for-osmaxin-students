@@ -1,9 +1,8 @@
-import {
-  DashboardLayout,
-  FinancialOverview,
-  HelloWithAddPayment,
-} from "../../components";
+import {DashboardLayout} from "../../components/Layouts/DashboardLayout";
+import { HelloWithAddPayment } from "./DashboardContent";
+import { FinancialOverview } from "./DashboardContent";
 import { MovieCard } from "./Movies";
+import { QuickTransaction } from "./Transaction/QuickTransaction";
 
 export const Dashboard = () => {
   return (
@@ -32,8 +31,9 @@ export const Dashboard = () => {
             isProfit={true}
           />
         </div>
-        <div className="w-[40%]">
+        <div className="w-[50%]">
           <MovieCard />
+          <QuickTransaction/>
         </div>
       </section>
     </DashboardLayout>
