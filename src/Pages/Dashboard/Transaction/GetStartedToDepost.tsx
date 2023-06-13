@@ -6,7 +6,9 @@ export const GetStartedToDepost = () => {
     return (
         <div className='bg-pink-50 p-6 rounded'>
             <div className='flex items-center justify-between'>
-                <CiPercent className="bg-blue-600 text-white rounded-full text-2xl" />
+                <div className='bg-pink-100 shadow-sm rounded p-2'>
+                    <CiPercent className="bg-blue-600 text-white rounded-full text-2xl" />
+                </div>
                 <div>
                     <button className='flex items-center space-x-2 bg-black text-white py-1 px-4 rounded'>
                         <h4>Get Started</h4>
