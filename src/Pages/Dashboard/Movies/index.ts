@@ -1,1 +1,3 @@
-export * from "./MoviesCard";
+export * from './Movie';
+export * from './MovieList';
+export * from './MoviesCard';
