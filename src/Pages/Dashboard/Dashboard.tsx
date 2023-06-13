@@ -31,7 +31,7 @@ export const Dashboard = () => {
             isProfit={true}
           />
         </div>
-        <div className="w-[50%]">
+        <div className="w-[45%]">
           <MovieCard />
           <QuickTransaction/>
         </div>
