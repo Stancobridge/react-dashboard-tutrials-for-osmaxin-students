@@ -1,3 +1,4 @@
+import { Chart } from "../Dashboard/Chart/Chart";
 import {DashboardLayout} from "../../components/Layouts/DashboardLayout";
 import { HelloWithAddPayment } from "./DashboardContent";
 import { FinancialOverview } from "./DashboardContent";
@@ -10,7 +11,7 @@ export const Dashboard = () => {
       <HelloWithAddPayment />
 
       <section className="flex items-start mt-8">
-        <div className="flex space-x-8 mr-8 w-[60%]">
+        <div className="flex space-x-8 mr-8 w-[60%] ">
           <FinancialOverview
             amount="$974,99"
             rate="7.85%"
@@ -30,10 +31,13 @@ export const Dashboard = () => {
             title="Total Savings"
             isProfit={true}
           />
+          
         </div>
+        
         <div className="w-[45%]">
           <MovieCard />
-          <QuickTransaction/>
+          <QuickTransaction />
+          <Chart/>
         </div>
       </section>
     </DashboardLayout>

@@ -1,3 +1,4 @@
-export * from './Dashboard';
+export * from './Chart';
 export * from './DashboardContent';
 export * from './Movies';
+export * from './Transaction';
