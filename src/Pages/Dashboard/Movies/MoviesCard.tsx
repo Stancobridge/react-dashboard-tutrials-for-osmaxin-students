@@ -39,7 +39,8 @@ export const MovieCard = () => {
   );
   return (
     <Card className="">
-      <div className="flex justify-between">
+      <div className="flex justify-between
+      ">
         <div className="flex items-center space-x-2">
           <h4 className="text-black font-bold text-lg">Transactions</h4>
           <span className="text-sm text-gray-400"> | Upcoming movies</span>

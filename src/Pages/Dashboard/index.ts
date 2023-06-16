@@ -1,3 +1,3 @@
-export * from './Dashboard';
-export * from './DashboardContent';
-export * from './Movies';
+export * from "./DashboardContent";
+export * from "./Movies";
+export * from "./Transaction";
