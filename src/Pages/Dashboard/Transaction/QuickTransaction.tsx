@@ -17,7 +17,7 @@ export const QuickTransaction = () => {
                     <button className="underline text-pink-600">See all</button>
                 </div>
             </div>
-            <div className="flex mt-4 justify-between">
+            <div className="flex mt-4 space-x-4 justify-between">
                 <Card>
                     <div className="flex items-center space-x-2 ">
                         <div className="bg-blue-800 w-[80px] h-[60px] rounded relative">

@@ -1,8 +1,8 @@
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { QueryClientProvider } from "@tanstack/react-query";
+import { Dashboard } from "./Pages/Dashboard/Dashboard";
 import { queryClient } from "./base";
 import "./index.css";
-import { Dashboard } from "./Pages/Dashboard/Dashboard";
 
 function App() {
 	return (

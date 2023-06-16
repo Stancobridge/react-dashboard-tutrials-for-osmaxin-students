@@ -1,7 +1,8 @@
 {
   "exportall.config.relExclusion": [
     "/src/components/Layouts/DashboardLayout.tsx",
-    "/src/Pages/Dashboard/Dashboard.tsx"
+    "/src/Pages/Dashboard/Dashboard.tsx",
+    "/src/App.tsx"
   ],
   "cSpell.words": ["Favourite"]
 }
