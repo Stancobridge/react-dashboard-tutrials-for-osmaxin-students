@@ -2,56 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .hidden__flow {
-	position: relative;
-	height: 220px;
-	overflow: hidden;
-}
-
- 
-
- 
-.carousel {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100%;
-}
- 
- 
-
-.card__img {
-	height: 185px;
-}
-
-.card__img img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 15px;
-}
- 
- 
- 
-
-.balance:nth-child(2) {
-	margin-top: 0.3em;
-}
-
-.deactivate h4 {
-	color: gray;
-}
-
-.deactivate {
-	margin-top: 1em;
-} */
-
 .toggle-switch {
 	position: relative;
 	display: inline-block;
 	width: 60px;
 	height: 30px;
-	margin-top: 0.4em;
 	cursor: pointer;
 }
 
@@ -116,9 +71,4 @@
 	+ .toggle-switch-background
 	.toggle-switch-handle {
 	transform: translateX(30px);
-}
-
-button[disabled="disabled"],
-button:disabled {
-	background: red;
 }

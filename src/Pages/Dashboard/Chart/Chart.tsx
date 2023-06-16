@@ -10,7 +10,7 @@ export const Chart = () => {
 
     const { currentState, data, labels, setData, setSelectedIndex, options, moneyIncome, dateChange, date, seletedIndex } = useData()
     return (
-        <Card>
+        <Card className="mt-6">
             <div className="flex items-center justify-between">
                 <h1 className="font-bold py-4">Statistic</h1>
                 <div>
