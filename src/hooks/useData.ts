@@ -4,6 +4,7 @@ export const useData = () => {
     const [seletedIndex, setSelectedIndex] = useState(-1);
     const date = ['1D', '1W', '1M', '1Y']
     const labels = ["8/04", "", "9/04", "", "10/04", "", "11/04", "", "12/04", "", "13/04", "", "14/04"];
+    
     const [data, setData] = useState({
         labels: labels,
         datasets: [
@@ -13,7 +14,8 @@ export const useData = () => {
                 borderColor: 'blue',
                 pointBorderColor: 'transparent',
                 pointBorderWidth: 5,
-                tension: 0.5
+                tension: 0.5,
+                fill: true,
             },
         ],
     });
@@ -50,5 +52,5 @@ export const useData = () => {
             }]
         });
     }
-    return { currentState, data, date, dateChange, moneyIncome, setSelectedIndex, setData, labels, options, seletedIndex }
+    return { currentState, data, date, dateChange, moneyIncome, setSelectedIndex, setData, labels, options,seletedIndex,}
 } 

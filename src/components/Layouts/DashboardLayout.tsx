@@ -10,7 +10,7 @@ export const DashboardLayout = ({ children}) => {
       </div>
       <section className="flex-1">
         <Header />
-        <section className="bg-[#f9f9f9] px-16 py-10 ">{children}</section>
+        <section className="bg-[#f9f9f9] px-16 py-10 mt-[4em]">{children}</section>
       </section>
     </main>
   );
