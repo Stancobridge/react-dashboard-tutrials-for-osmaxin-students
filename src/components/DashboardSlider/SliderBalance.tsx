@@ -15,13 +15,12 @@ const SliderBalance = () => {
 			<div className="mt-7">
 				<h4 className={headerStyle}>Deactivate card</h4>
 
-<label className="toggle-switch">
-  <input type="checkbox"/>
-  <div className="toggle-switch-background">
-    <div className="toggle-switch-handle"></div>
-  </div>
-</label>
- 
+				<label className="toggle-switch">
+					<input type="checkbox" />
+					<div className="toggle-switch-background">
+						<div className="toggle-switch-handle"></div>
+					</div>
+				</label>
 			</div>
 		</div>
 	);
