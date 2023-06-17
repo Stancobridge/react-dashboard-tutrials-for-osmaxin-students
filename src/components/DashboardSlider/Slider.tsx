@@ -1,4 +1,4 @@
-import { Card } from "../Card";
+import { Card } from "../Card/Card";
 import SliderNav from "./SliderNav";
 import Slides from "./Slides";
 import { FaGreaterThan } from "react-icons/fa";
@@ -9,7 +9,7 @@ export const Slider: React.FC = () => {
 	const btnStyle =
 		"shadow-btn bg-none border-none p-2 rounded text-gray-500 w-9 text-[18px]font-bold disabled:text-gray-300 disabled:bg-transparent";
 	return (
-		<Card className="mt-6 relative	">
+		<Card className="mt-6 relative">
 			<Splide
 				hasTrack={false}
 				options={{ pagination: false }}

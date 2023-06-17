@@ -1,7 +1,7 @@
 import { BsArrowRightShort } from "react-icons/bs";
 import { CiCreditCard1 } from "react-icons/ci";
 import { FaDollarSign } from "react-icons/fa";
-import { Input } from "../../../components/Forms/Input";
+import { Input } from "../../../components/Forms/Input/Input";
 
 export const CardInsertDetails = () => {
 	return (
@@ -13,13 +13,13 @@ export const CardInsertDetails = () => {
 			/>
 			<div className="flex">
 				<Input
-					className="border-b-2 border-b-pink-100 rounded-none outline-none mt-2"
+					className="border-b-2 w-[90%] border-b-pink-100 rounded-none outline-none mt-2"
 					icon={[<FaDollarSign />, <BsArrowRightShort className="text-2xl" />]}
 					placeholder="Prefered amount"
 				/>
 				<Input
 					placeholder="USD"
-					className="border-b-2 border-b-pink-100 flex-1 outline-none rounded-none"
+					className="border-b-2 w-[10%] border-b-pink-100 flex-1 outline-none rounded-none"
 				/>
 			</div>
 		</div>

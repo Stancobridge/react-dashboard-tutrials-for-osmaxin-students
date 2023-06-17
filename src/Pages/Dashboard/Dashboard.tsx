@@ -1,10 +1,10 @@
 import { Chart } from "../Dashboard/Chart/Chart";
 import {DashboardLayout} from "../../components/Layouts/DashboardLayout";
-import { HelloWithAddPayment } from "./DashboardContent";
-import { FinancialOverview } from "./DashboardContent";
-import { MovieCard } from "./Movies";
+import { HelloWithAddPayment } from "./DashboardContent/HelloWithAddPayment";
+import { FinancialOverview } from "./DashboardContent/FinancialOverview";
+import { MovieCard } from "./Movies/MoviesCard";
 import { QuickTransaction } from "./Transaction/QuickTransaction";
-import { Slider } from "../../components";
+import { Slider } from "../../components/DashboardSlider/Slider";
 
 export const Dashboard = () => {
 	return (

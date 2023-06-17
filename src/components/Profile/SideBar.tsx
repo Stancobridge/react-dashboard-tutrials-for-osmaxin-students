@@ -1,4 +1,4 @@
-import { Profile } from "../Layouts";
+import { Profile } from "../Layouts/Header/Profile";
 import { Menus } from "./Menus";
 import { FaChevronDown } from "react-icons/fa";
 

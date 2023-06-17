@@ -2,13 +2,13 @@ import { Line } from "react-chartjs-2"
 import { Card } from "../../../components/Card/Card";
 import { RxDotFilled } from 'react-icons/rx';
 import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, PointElement } from 'chart.js';
-import { useData } from "../../../hooks";
+import { useData } from "../../../hooks/useData";
 
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement)
 
 export const Chart = () => {
 
-    const { currentState, data, labels, setData, setSelectedIndex, options, moneyIncome, dateChange, date, seletedIndex } = useData()
+    const { currentState, data,  setSelectedIndex, options, moneyIncome, dateChange, date, seletedIndex } = useData()
     return (
         <Card className="mt-6">
             <div className="flex items-center justify-between">
