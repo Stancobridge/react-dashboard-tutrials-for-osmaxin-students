@@ -1,5 +1,4 @@
 import joker from '../../../asset/joker.jpeg'
-import superman from '../../../asset/superman.jpeg'
 import batman from '../../../asset/batman.jpeg'
 import hulk from '../../../asset/hulk.jpeg'
 import spiderman from '../../../asset/spiderman.jpeg'
@@ -30,10 +29,5 @@ export const DUMMY_LIST = [
         img: thor,
         title: "Thor",
         releaseYear: "2019"
-    },
-    {
-        img: superman,
-        title: "Superman",
-        releaseYear: "2014"
     }
 ]

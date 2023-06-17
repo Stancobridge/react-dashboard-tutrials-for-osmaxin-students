@@ -7,7 +7,7 @@ import { CardInsertDetails } from "./CardInsertDetails";
 
 export const QuickTransaction = () => {
     return (
-        <Card className="mt-4">
+        <Card className="mt-6">
             <div className="flex justify-between text-2sm">
                 <div className="flex space-x-2 items-center">
                     <h4 className="font-bold">Quick Transfer</h4>

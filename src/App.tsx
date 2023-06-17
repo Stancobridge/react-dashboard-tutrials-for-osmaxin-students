@@ -5,12 +5,12 @@ import { queryClient } from "./base/queries/queryClient";
 import "./index.css";
 
 function App() {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <Dashboard />
-      <ReactQueryDevtools initialIsOpen={false} />
-    </QueryClientProvider>
-  );
+	return (
+		<QueryClientProvider client={queryClient}>
+			<Dashboard />
+			<ReactQueryDevtools initialIsOpen={false} />
+		</QueryClientProvider>
+	);
 }
 
 export default App;
