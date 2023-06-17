@@ -1,4 +1,4 @@
-import { Input } from "../../Forms";
+import { Input } from "../../Forms/Input/Input";
 import { HeaderNotificationUser } from "./HeaderNotificationUser";
 import { HeaderSearch } from "./HeaderSearch";
 

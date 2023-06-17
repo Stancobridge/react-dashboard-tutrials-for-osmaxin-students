@@ -1,7 +1,7 @@
 import { BsArrowRightShort } from "react-icons/bs";
 import { CiCreditCard1 } from 'react-icons/ci';
 import { FaDollarSign } from "react-icons/fa";
-import { Input } from "../../../components/Forms/Input";
+import { Input } from "../../../components/Forms/Input/Input";
 
 export const CardInsertDetails = () => {
     return (

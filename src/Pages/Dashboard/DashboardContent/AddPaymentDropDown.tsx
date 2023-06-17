@@ -1,7 +1,7 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { FaEllipsisH } from "react-icons/fa";
-import { EditInactiveIcon } from "../../../components/Icons";
+import { EditInactiveIcon } from "../../../components/Icons/Svg/EditInactiveIcon";
 export function AddPaymentDropDown() {
   return (
     <div className="text-right">
