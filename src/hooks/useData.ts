@@ -9,7 +9,7 @@ export const useData = () => {
         labels: labels,
         datasets: [
             {
-                data: [0, 11, 6, 10, 20, 13, 10, 35, 38, 12, 5, 10, 13],
+                data: [0, 10, 7, 20, 14.5, 10, 20, 30, 20, 10, 10, 20, 20],
                 backgroundcolor: 'transparent',
                 borderColor: 'blue',
                 pointBorderColor: 'transparent',
